@@ -55,6 +55,9 @@
   <string name="profile_app_group_category_title">Tilsidesætning af underretninger</string>
   <string name="profile_app_group_item_instructions">Tilføj eller fjern grupper</string>
   <string name="profile_app_group_item_instructions_summary">Tilføj eller fjern tilsidesættelse af underretninger fra grupper af apps til denne profil</string>
+  <string name="profile_entries_on">Til</string>
+  <string name="profile_entries_off">Fra</string>
+  <string name="profile_entries_no_override">Tilsidesæt ikke</string>
   <string name="profile_name_title">Navn</string>
   <string name="new_profile_name">&lt;ny profil&gt;</string>
   <string name="rename_dialog_title">Omdøb</string>
@@ -83,6 +86,9 @@
   <string name="profile_lockmode_insecure_summary">Spørg ikke efter PIN-kode eller kodeord</string>
   <string name="profile_lockmode_disabled_summary">Deaktiver låseskærmen</string>
   <string name="profile_airplanemode_title">Flytilstand</string>
+  <string name="profile_brightness_title">Skærmens lysstyrke</string>
+  <string name="profile_brightness_override_summary">Indstil til %1$d%%</string>
+  <string name="profile_brightness_override_checkbox_label">Tilsidesæt lysstyrke</string>
   <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Flytbar Wi\u2011Fi-hotspot</string>
   <string name="toggleBluetooth">Bluetooth</string>
@@ -297,6 +303,7 @@
   <string name="status_bar_show_unused_sims_title">Vis tomme SIM-ikoner</string>
   <string name="status_bar_show_unused_sims_title_summary_off">Skjul ikoner fra ubrugte SIM-slots</string>
   <string name="status_bar_show_unused_sims_title_summary_on">Vis ikoner fra ubrugte SIM-slots</string>
+  <string name="sim_name_hint">Angiv navn på SIM</string>
   <string name="edit_light_settings">Rediger LED-indstillinger</string>
   <string name="pulse_speed_title">Blinklængde og hastighed</string>
   <string name="default_time">Normal</string>
@@ -566,6 +573,12 @@
   <string name="subs_settings">SIM-kort status</string>
   <string name="storage_usb">USB-hukommelse</string>
   <string name="storage_uicc">UICC-hukommelse</string>
+  <string name="sdcard_eject" product="default">Frakoble SD-kort</string>
+  <string name="sdcard_eject_summary" product="default">Frakoble SD-kortet, så du sikkert kan fjerne det</string>
+  <string name="sd_card_format" product="default">Slet SD-kort</string>
+  <string name="sd_card_format_summary" product="default">Sletter alle data på SD-kortet som musik og billeder</string>
+  <string name="sdcard_mount" product="default">Tilslut SD-kort</string>
+  <string name="sdcard_insert_summary" product="default">Indsæt et SD-kort for at tilslutte</string>
   <string name="usb_eject" product="default">Frakoble USB-hukommelse</string>
   <string name="usb_eject_summary" product="default">Frakoble USB-hukommelsen, så du sikkert kan fjerne den</string>
   <string name="usb_format" product="default">Slet USB-hukommelse</string>
@@ -580,22 +593,36 @@
   <string name="uicc_insert_summary" product="default">Indsæt UICC-hukommelse til tilslutning</string>
   <string name="usb_settings_enable_ums_title">Aktiver lagerenhed?</string>
   <string name="usb_settings_enable_ums_message">Systemkomponenter og apps afhænger af, at primær hukommelse altid er tilgængelig. Denne funktion bryder denne funktionalitet. Det anbefales kraftigt at bruge MTP i stedet. Er du sikker på, du vil aktivere lagerenhed?</string>
+  <string name="dlg_confirm_sdcard_unmount_title" product="default">Frakoble SD-kort?</string>
   <string name="dlg_confirm_usb_unmount_title" product="default">Frakoble USB-hukommelse?</string>
   <string name="dlg_confirm_uicc_unmount_title" product="default">Frakoble UICC-hukommelse?</string>
+  <string name="dlg_confirm_sdcard_unmount_text" product="default">Hvis du frakobler SD-kortet, vil nogle apps stoppe og kan være utilgængelige, indtil du tilslutter SD-kortet igen.</string>
   <string name="dlg_confirm_usb_unmount_text" product="default">Hvis du frakobler USB-hukommelsen, vil nogle apps stoppe og kan være utilgængelige, indtil du tilslutter USB-hukommelsen igen.</string>
   <string name="dlg_confirm_uicc_unmount_text" product="default">Hvis du frakobler UICC-hukommelsen, vil nogle apps stoppe og kan være utilgængelige, indtil du tilslutter UICC-hukommelsen igen.</string>
+  <string name="dlg_error_sdcard_unmount_text" product="default">Kunne ikke frakoble SD-kortet. Prøv igen senere.</string>
   <string name="dlg_error_usb_unmount_text" product="default">Kunne ikke frakoble USB-hukommelse. Prøv igen senere.</string>
   <string name="dlg_error_uicc_unmount_text" product="default">Kunne ikke frakoble UICC-hukommelse. Prøv igen senere.</string>
+  <string name="sdcard_unmount_inform_text" product="default">SD-kortet bliver frakoblet.</string>
   <string name="usb_unmount_inform_text" product="default">USB-hukommelse bliver frakoblet.</string>
   <string name="uicc_unmount_inform_text" product="default">UICC-hukommelse bliver frakoblet.</string>
+  <string name="sdcard_media_format_desc" product="default">Slet SD-kortet? Du vil miste <b>alle</b> data på kortet!</string>
   <string name="usb_media_format_desc" product="default">Slet USB-hukommelsen? Du vil miste <b>alle</b> data på hukommelsen!</string>
   <string name="uicc_media_format_desc" product="default">Slet UICC-hukommelsen? Du vil miste <b>alle</b> data på hukommelsen!</string>
+  <string name="sdcard_media_format_button_text" product="default">Slet SD-kort</string>
   <string name="usb_media_format_button_text" product="default">Slet USB-hukommelse</string>
   <string name="uicc_media_format_button_text" product="default">Slet UICC-hukommelse</string>
+  <string name="sdcard_media_format_final_desc" product="default">Slet SD-kortet og alle filer, der er gemt? Du kan ikke fortryde denne handling!</string>
   <string name="usb_media_format_final_desc" product="default">Slet hele USB-hukommelsen og alle filer, der er gemt? Du kan ikke fortryde denne handling!</string>
   <string name="uicc_media_format_final_desc" product="default">Slet UICC-hukommelsen og alle filer der er gemt der? Du kan ikke fortryde denne handling!</string>
+  <string name="sdcard_media_format_gesture_explanation" product="default">Du skal tegne dit oplåsningsmønster for at bekræfte, du vil slette SD-kortet.</string>
   <string name="usb_media_format_gesture_explanation" product="default">Du skal tegne dit oplåsningsmønster for at bekræfte, du vil slette USB-hukommelsen.</string>
   <string name="uicc_media_format_gesture_explanation" product="default">Du skal tegne dit oplåsningsmønster for at bekræfte, at du vil slette UICC-hukommelsen.</string>
+  <string name="internal_sd_format">Slet internt medie-lager</string>
+  <string name="internal_sd_format_summary">Sletter alle data på det interne medie-lager som f.eks. musik og billeder</string>
+  <string name="master_clear_desc_erase_internal_storage">\n\nFor at slette musik, billeder og andre brugerdata, skal <b>det interne medie-lager</b> slettes.</string>
+  <string name="erase_internal_storage">Slet internt medie-lager</string>
+  <string name="erase_internal_storage_description">Slet alle data på det interne medie-lager, som f.eks. musik og billeder</string>
+  <string name="storage_rescan_media">Scan lagerenheden igen for medier</string>
   <string name="location_category_enhanced_location">Forbedret placering (IZat)</string>
   <string name="app_ops_settings_summary">Vis eller redigér app-tilladelser</string>
   <string name="enable_adb_summary_charging">Enheden er i oplader-tilstand, USB debugging er deaktiveret</string>
@@ -660,6 +687,8 @@
   <string name="cmlicense_title">Juridisk information for CyanogenMod</string>
   <string name="settings_cmlicense_activity_title">Juridisk information for CyanogenMod</string>
   <string name="settings_cmlicense_activity_unreachable">Du har ingen dataforbindelse. Gå til %s fra en computer tilsluttet Internettet for at vise denne information nu.</string>
+  <string name="lockpattern_settings_enable_error_path_title">Vis mønsterfejl</string>
+  <string name="lockpattern_settings_enable_dots_title">Vis mønsterprikker</string>
   <string name="unlock_quick_unlock_control_title">Hurtig-oplåsning</string>
   <string name="unlock_quick_unlock_control_summary">Lås automatisk op, når det korrekte PIN/kodeord er indtastet</string>
   <string name="unlock_scramble_pin_layout_title">Ændre layout</string>
@@ -701,6 +730,7 @@
   <string name="qs_tile_lockscreen">Skærmlås</string>
   <string name="qs_tile_lte">LTE</string>
   <string name="qs_tile_screen_timeout">Skærm-timeout</string>
+  <string name="qs_tile_usb_tether">USB-tethering</string>
   <string name="qs_main_tiles_title">Forstør første række</string>
   <string name="qs_main_tiles_summary_on">To vigtige fliser i den første række</string>
   <string name="qs_main_tiles_summary_off">Tre fliser på hver række</string>
@@ -728,6 +758,7 @@
   <string name="expanded_desktop_style">Tema for udvidet skrivebord</string>
   <string name="expanded_desktop_style_description">Vælg standardtema for udvidet skrivebord</string>
   <string name="expanded_desktop_title">Indstillinger for udvidet skrivebord</string>
+  <string name="title_general">Generelt</string>
   <string name="lockscreen_targets_message">Genveje på låseskærm</string>
   <string name="lockscreen_default_target">Standard</string>
   <string name="lockscreen_none_target">Ingen</string>

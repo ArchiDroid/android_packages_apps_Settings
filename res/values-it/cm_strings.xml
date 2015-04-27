@@ -86,6 +86,9 @@
   <string name="profile_lockmode_insecure_summary">Non chiedere password o PIN</string>
   <string name="profile_lockmode_disabled_summary">Disattiva schermata di sblocco</string>
   <string name="profile_airplanemode_title">Modalità aereo</string>
+  <string name="profile_brightness_title">Luminosità schermo</string>
+  <string name="profile_brightness_override_summary">Imposta su %1$d%%</string>
+  <string name="profile_brightness_override_checkbox_label">Sovrascrivi luminosità</string>
   <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Hotspot Wi\u2011Fi portatile</string>
   <string name="toggleBluetooth">Bluetooth</string>
@@ -267,9 +270,9 @@
   <string name="navigation_restore_button_text">Ripristina\npredefinite</string>
   <string name="navigation_edit_button_text">Modifica</string>
   <string name="navigation_save_button_text">Salva</string>
-  <string name="navigation_bar_reset_message">Cancellare le impostazioni attuali e ripristinare il layout predefinito?</string>
-  <string name="navigation_bar_arrow_keys_title">Mostra tasti freccia durante la digitazione</string>
-  <string name="navigation_bar_arrow_keys_summary">Visualizza i pulsanti sinistro e destro del cursore durante la digitazione. Nasconde il selettore di input.</string>
+  <string name="navigation_bar_reset_message">Eliminare le impostazioni attuali e ripristinare la disposizione predefinita?</string>
+  <string name="navigation_bar_arrow_keys_title">Tasti controllo cursore</string>
+  <string name="navigation_bar_arrow_keys_summary">Visualizza i pulsanti sinistro e destro del cursore durante la digitazione. Nasconde il selettore di immissione.</string>
   <string name="navigation_bar_recents_title">Azione pressione continuata Recenti</string>
   <string name="header_category_personalization">Personalizzazione</string>
   <string name="status_bar_title">Barra di stato</string>
@@ -277,7 +280,7 @@
   <string name="status_bar_toggle_brightness_summary">Modifica la luminosità strisciando sulla barra di stato</string>
   <string name="status_bar_notif_count_title">Mostra contatore notifiche</string>
   <string name="status_bar_notif_count_summary">Visualizza il numero di notifiche in sospeso</string>
-  <string name="status_bar_clock_style_title">Stile orologio</string>
+  <string name="status_bar_clock_style_title">Posizione orologio</string>
   <string name="status_bar_clock_style_right">Destra</string>
   <string name="status_bar_clock_style_left">Sinistra</string>
   <string name="status_bar_clock_style_center">Centrato</string>
@@ -300,6 +303,7 @@
   <string name="status_bar_show_unused_sims_title">Visualizza icone SIM vuote</string>
   <string name="status_bar_show_unused_sims_title_summary_off">Nascondi icone di slot SIM inutilizzati</string>
   <string name="status_bar_show_unused_sims_title_summary_on">Indica slot SIM inutilizzati</string>
+  <string name="sim_name_hint">Inserisci il nome SIM</string>
   <string name="edit_light_settings">Modifica impostazioni luce</string>
   <string name="pulse_speed_title">Durata e velocità del lampeggio</string>
   <string name="default_time">Normale</string>
@@ -335,7 +339,7 @@
   <string name="headset_connect_player_title">Avvia lettore musicale</string>
   <string name="headset_connect_player_summary">Lancia il lettore musicale predefinito quando vengono connesse le cuffie</string>
   <string name="ime_switcher_notify">Icona selettore</string>
-  <string name="ime_switcher_notify_summary">Mostra icona selettore tastiera</string>
+  <string name="ime_switcher_notify_summary">Mostra l\'icona del selettore metodo di immissione</string>
   <string name="app_notification_show_on_keyguard_title">Mostra nella schermata di sblocco</string>
   <string name="app_notification_show_on_keyguard_summary">Mostra notifiche di quest\'app nella schermata di sblocco</string>
   <string name="app_notification_no_ongoing_on_keyguard_title">Disabilita la notifica persistente nella schermata di sblocco</string>
@@ -392,7 +396,7 @@
   <string name="app_ops_summaries_toast_window">visualizza messaggi popup</string>
   <string name="app_ops_summaries_project_media">proietta media</string>
   <string name="app_ops_summaries_activate_vpn">attiva VPN</string>
-  <string name="app_ops_summaries_wifi_change">ON/OFF Wi\u2011Fi</string>
+  <string name="app_ops_summaries_wifi_change">modifica stato Wi\u2011Fi</string>
   <string name="app_ops_summaries_bluetooth_change">modifica stato Bluetooth</string>
   <string name="app_ops_summaries_send_mms">invio MMS</string>
   <string name="app_ops_summaries_read_mms">lettura MMS</string>
@@ -466,7 +470,7 @@
   <string name="app_ops_categories_bootup">Avvio</string>
   <string name="app_ops_categories_su">Accesso root</string>
   <string name="app_ops_permissions_allowed">Consentito</string>
-  <string name="app_ops_permissions_ignored">Ignorato</string>
+  <string name="app_ops_permissions_ignored">Negato</string>
   <string name="app_ops_permissions_always_ask">Chiedi sempre</string>
   <string name="ok">OK</string>
   <string name="profile_menu_delete_title">Elimina</string>
@@ -569,6 +573,12 @@
   <string name="subs_settings">Stato scheda SIM</string>
   <string name="storage_usb">Archivio USB</string>
   <string name="storage_uicc">Archivio UICC</string>
+  <string name="sdcard_eject" product="default">Smonta scheda SD</string>
+  <string name="sdcard_eject_summary" product="default">Smonta la scheda SD così potrai rimuoverla in sicurezza</string>
+  <string name="sd_card_format" product="default">Formatta scheda SD</string>
+  <string name="sd_card_format_summary" product="default">Elimina tutti i dati sulla scheda SD, come musica e foto</string>
+  <string name="sdcard_mount" product="default">Monta scheda SD</string>
+  <string name="sdcard_insert_summary" product="default">Inserire una scheda SD da montare</string>
   <string name="usb_eject" product="default">Smonta l\'archivio USB</string>
   <string name="usb_eject_summary" product="default">Smonta l\'archivio USB per rimuoverlo in sicurezza</string>
   <string name="usb_format" product="default">Formatta archivio USB</string>
@@ -583,22 +593,36 @@
   <string name="uicc_insert_summary" product="default">Inserire l\'archivio UICC da montare</string>
   <string name="usb_settings_enable_ums_title">Attivare la memoria di massa?</string>
   <string name="usb_settings_enable_ums_message">App e componenti di sistema prevedono che la memoria primaria sia sempre disponibile. Questa opzione disattende tale prerequisito. È consigliabile invece utilizzare MTP. Attivare comunque la memoria di massa?</string>
+  <string name="dlg_confirm_sdcard_unmount_title" product="default">Smontare scheda SD?</string>
   <string name="dlg_confirm_usb_unmount_title" product="default">Smontare l\'archivio USB?</string>
   <string name="dlg_confirm_uicc_unmount_title" product="default">Smontare l\'archivio UICC?</string>
+  <string name="dlg_confirm_sdcard_unmount_text" product="default">Se smonti la scheda SD, alcune app che stai usando potrebbero arrestarsi e non essere più disponibili fino a quando la scheda SD verrà montata di nuovo.</string>
   <string name="dlg_confirm_usb_unmount_text" product="default">Se smonti l\'archivio USB, alcune app che stai usando potrebbero fermarsi e non essere più disponibili fino a quando non verrà montato di nuovo.</string>
   <string name="dlg_confirm_uicc_unmount_text" product="default">Se smonti l\'archivio UICC, alcune app che stai usando potrebbero fermarsi e non essere più disponibili fino a quando non verrà montato di nuovo.</string>
+  <string name="dlg_error_sdcard_unmount_text" product="default">Impossibile smontare la scheda SD. Riprova più tardi.</string>
   <string name="dlg_error_usb_unmount_text" product="default">Impossibile smontare l\'archivio USB. Riprova più tardi.</string>
   <string name="dlg_error_uicc_unmount_text" product="default">Impossibile smontare l\'archivio UICC. Riprova più tardi.</string>
+  <string name="sdcard_unmount_inform_text" product="default">La scheda SD verrà smontata.</string>
   <string name="usb_unmount_inform_text" product="default">L\'archivio USB verrà smontato.</string>
   <string name="uicc_unmount_inform_text" product="default">L\'archivio UICC verrà smontato.</string>
+  <string name="sdcard_media_format_desc" product="default">Formattare la scheda SD? Perderai <b>tutti</b> i dati salvati sulla scheda!</string>
   <string name="usb_media_format_desc" product="default">Cancellare l\'archivio USB? <b>Tutti</b> i dati su di esso andranno perduti!</string>
   <string name="uicc_media_format_desc" product="default">Cancellare l\'archivio UICC? <b>Tutti</b> i dati su di esso andranno perduti!</string>
+  <string name="sdcard_media_format_button_text" product="default">Formatta scheda SD</string>
   <string name="usb_media_format_button_text" product="default">Formatta archivio USB</string>
   <string name="uicc_media_format_button_text" product="default">Cancella archivio UICC</string>
+  <string name="sdcard_media_format_final_desc" product="default">Formatta la scheda SD, eliminando tutti i file presenti su di essa? L\'azione non è reversibile!</string>
   <string name="usb_media_format_final_desc" product="default">Formattare l\'archivio USB, eliminando tutti i file presenti su di esso? L\'azione non è reversibile!</string>
   <string name="uicc_media_format_final_desc" product="default">Formattare l\'archivio UICC, eliminando tutti i file presenti su di esso? L\'azione è irreversibile!</string>
+  <string name="sdcard_media_format_gesture_explanation" product="default">Devi tracciare la tua sequenza di sblocco per confermare la formattazione della scheda SD.</string>
   <string name="usb_media_format_gesture_explanation" product="default">Devi tracciare la tua sequenza di sblocco per confermare la formattazione dell\'archivio USB.</string>
   <string name="uicc_media_format_gesture_explanation" product="default">Devi tracciare la tua sequenza di sblocco per confermare la formattazione dell\'archivio UICC.</string>
+  <string name="internal_sd_format">Elimina memoria interna</string>
+  <string name="internal_sd_format_summary">Elimina tutti i dati sulla memoria interna, come musica e foto</string>
+  <string name="master_clear_desc_erase_internal_storage">\n\nPer rimuovere musica, immagini e altri dati dell\'utente la <b>memoria interna</b> deve essere eliminata.</string>
+  <string name="erase_internal_storage">Elimina memoria interna</string>
+  <string name="erase_internal_storage_description">Elimina tutti i dati nella memoria interna come musica o foto</string>
+  <string name="storage_rescan_media">Riesegui la scansione dei file multimediali sulla memoria di massa</string>
   <string name="location_category_enhanced_location">Localizzazione avanzata (IZat)</string>
   <string name="app_ops_settings_summary">Visualizza o modifica i permessi delle app</string>
   <string name="enable_adb_summary_charging">Dispositivo è in modalità ricarica, il debug USB è disattivato</string>
@@ -663,6 +687,8 @@
   <string name="cmlicense_title">Note legali CyanogenMod</string>
   <string name="settings_cmlicense_activity_title">Note legali CyanogenMod</string>
   <string name="settings_cmlicense_activity_unreachable">Non disponi di una connessione dati. Per visualizzare queste informazioni ora, visita %s da un qualsiasi computer connesso a Internet.</string>
+  <string name="lockpattern_settings_enable_error_path_title">Mostra sequenza errata</string>
+  <string name="lockpattern_settings_enable_dots_title">Mostra punti sequenza</string>
   <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
   <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando il PIN/la password viene inserito in modo corretto</string>
   <string name="unlock_scramble_pin_layout_title">Mescola disposizione</string>
@@ -704,11 +730,12 @@
   <string name="qs_tile_lockscreen">Schermata di sblocco</string>
   <string name="qs_tile_lte">LTE</string>
   <string name="qs_tile_screen_timeout">Sospensione schermo</string>
+  <string name="qs_tile_usb_tether">Tethering USB</string>
   <string name="qs_main_tiles_title">Ingrandisci prima riga</string>
   <string name="qs_main_tiles_summary_on">Due tile principali nella prima riga</string>
   <string name="qs_main_tiles_summary_off">Tre tile su ogni riga</string>
-  <string name="qs_advanced_location_title">Impostazioni avanzate di localizzazione</string>
-  <string name="qs_advanced_location_summary">Attiva le impostazioni avanzate per la localizzazione in impostazioni rapide</string>
+  <string name="qs_advanced_location_title">Impostazioni avanzate localizzazione</string>
+  <string name="qs_advanced_location_summary">Attiva le impostazioni avanzate per la localizzazione in Impostazioni rapide</string>
   <string name="gesture_settings_title">Gesture</string>
   <string name="themes_settings_title">Temi</string>
   <string name="wifi_mode">Modalità</string>
@@ -731,6 +758,7 @@
   <string name="expanded_desktop_style">Stile desktop esteso</string>
   <string name="expanded_desktop_style_description">Seleziona lo stile predefinito del desktop esteso</string>
   <string name="expanded_desktop_title">Opzioni desktop esteso</string>
+  <string name="title_general">Generale</string>
   <string name="lockscreen_targets_message">Scorciatoie schermata di sblocco</string>
   <string name="lockscreen_default_target">Predefinito</string>
   <string name="lockscreen_none_target">Nessuno</string>
@@ -739,7 +767,7 @@
   <string name="lockscreen_visualizer_title">Mostra visualizzatore musicale</string>
   <string name="whisperpush_title">WhisperPush</string>
   <string name="whisperpush_summary">Gestisci le impostazioni SMS sicuri</string>
-  <string name="navigation_ring_title">Collegamenti dell\'anello di navigazione</string>
+  <string name="navigation_ring_title">Collegamenti anello di navigazione</string>
   <string name="navigation_ring_message">Tocca l\'icona di modifica per modificare l\'anello di navigazione.\n\nSeleziona un collegamento per configurarne il comportamento.\n\nTocca l\'icona \'\u2713\' per salvare le modifiche, o \'Ripristina le impostazioni predefinite\' per ritornare ai valori predefiniti.</string>
   <string name="stylus_icon_enabled_title">Mostra l\'icona quando utilizzi lo stilo</string>
   <string name="stylus_icon_enabled_summary">Mostra l\'icona del puntatore durante il movimento o il disegno con lo stilo</string>
@@ -772,11 +800,11 @@
   <string name="category_interface">Interfaccia</string>
   <string name="category_calibration">Calibrazione</string>
   <string name="display_and_lights">Display &amp; Luci</string>
-  <string name="notification_manager">Gestore notifiche</string>
+  <string name="notification_manager">Gestione notifiche</string>
   <string name="lockscreen_settings">Schermata di blocco</string>
   <string name="category_lights">Luci</string>
   <string name="power_usage_history_title">Utilizzo batteria</string>
-  <string name="recents_show_searchbar">Visualizza la barra di ricerca nel menu app recenti</string>
+  <string name="recents_show_searchbar">Barra di ricerca in app recenti</string>
   <string name="keywords_recents_show_searchbar">recente recenti disattiva attiva mostra nascondi barra ricerca</string>
   <string name="sim_ringtone_title">Suoneria SIM %d</string>
   <string name="interruptions_ignore_while_media_title">Previeni abbassamento audio</string>
